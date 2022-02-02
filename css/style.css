@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/Users/bogdansergeev/Desktop/Project/Новая/fount/Roboto/Roboto-Regular.ttf);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.menu__link {
+    display: flex;
+    justify-content: center;
+}
+
+.social__icon {
+    width: 81px;
+    height: 81px;
+    left: 320px;
+    top: 2327px;
+    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+    border-radius: 50%;
+}
+
+.soc {
+    display: flex;
+    justify-content: center;
+}
