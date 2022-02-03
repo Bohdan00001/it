@@ -1,38 +1,104 @@
-@font-face {
-    font-family: Roboto;
-    src: url(/Users/bogdansergeev/Desktop/Project/Новая/fount/Roboto/Roboto-Regular.ttf);
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: rgb(0, 0, 0);
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    font-size: 16px;
+    align-items: center;
+}
+
+.nav>li {
+    margin-left: 25px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    display: block;
+    height: 65px;
+    width: 159px;
+    border-radius: 0px;
+    margin-right: 20px;
+}
+
+.icon_cart {
+    padding-right: 10px;
+}
+
+.cart>a {
+    padding-left: 200px;
+    font-size: 16px;
+    color: black;
     text-decoration: none;
 }
 
-header {
+.social {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
 }
 
-nav.menu {
-    display: flex;
-    justify-content: space-between;
-}
-
-a.menu__link {
-    display: flex;
-    justify-content: center;
-}
-
-.social__icon {
+.social>li {
+    margin-left: 15px;
+    background-color: #E1E1E1;
     width: 81px;
     height: 81px;
-    left: 320px;
-    top: 2327px;
-    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
-.soc {
+.social>li>a {
+    text-decoration: none;
+}
+
+.social_icon {
+    position: absolute;
+}
+
+footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer_text {
+    display: flex;
+    align-items: center;
+}
+
+.bold {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
 }

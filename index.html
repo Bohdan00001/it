@@ -6,19 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Users/bogdansergeev/Desktop/Project/Новая/css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+    <link rel="stylesheet" href="/Users/bogdansergeev/Documents/GitHub/it/css/style.css" type="text/css" />
+
 </head>
 
 <body>
     <header>
-        <a href="#"><img src="/Users/bogdansergeev/Desktop/Project/Новая/images/nerds-logo.png" class="logo"></a>
-        <nav class="menu">
-            <a href="#" class="menu__link">Студия</a>
-            <a href="#" class="menu__link">Клиенты</a>
-            <a href="#" class="menu__link">Студия</a>
-            <a href="#" class="menu__link">Контакты</a>
-            <a href="#"><img src="/Users/bogdansergeev/Desktop/Project/Новая/images/cart-icon.png">Корзина</a>
-        </nav>
+
+        <div class="header">
+            <a href="#" class="logo"><span class="logo_img"><img src="/Users/bogdansergeev/Documents/GitHub/it/images/nerds-logo.png"></span></a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li>
+                        <span class="cart"><a href="#"><span class="icon_cart"><img src="/Users/bogdansergeev/Documents/GitHub/it/images/cart-icon.png"></span>Корзина</a>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
 
 
 
@@ -34,16 +48,16 @@
 
 
     <footer>
-        <section class="social">
-            <ul>
-                <li class="social__icon">
-                    <a href="#"><img src="/Users/bogdansergeev/Desktop/Project/Новая/images/vk-icon.png"></a>
+        <section>
+            <ul class="social">
+                <li>
+                    <a href="#"><span class="social_icon"><img src="/Users/bogdansergeev/Documents/GitHub/it/images/vk-icon.png"></span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="/Users/bogdansergeev/Desktop/Project/Новая/images/fb-icon.png" class="social__icon"></a>
+                    <a href="#"><span class="social_icon"><img src="/Users/bogdansergeev/Documents/GitHub/it/images/fb-icon.png"></span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="/Users/bogdansergeev/Desktop/Project/Новая/images/insta-icon.png" class="social__icon"></a>
+                    <a href="#"><span class="social_icon"><img src="/Users/bogdansergeev/Documents/GitHub/it/images/insta-icon.png"></span></a>
                 </li>
             </ul>
         </section>
