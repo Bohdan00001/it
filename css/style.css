@@ -25,11 +25,11 @@ body {
     padding-left: 0;
 }
 
-.nav>li {
+.nav__item {
     margin-left: 25px;
 }
 
-.nav>li>a {
+.nav__link {
     text-decoration: none;
     color: #000000;
 }
@@ -62,7 +62,7 @@ body {
     display: flex;
 }
 
-.social>li {
+.social__item {
     margin-left: 15px;
     background-color: #E1E1E1;
     width: 81px;
@@ -70,7 +70,7 @@ body {
     border-radius: 50px;
 }
 
-.social>li>a {
+.social__link {
     text-decoration: none;
     position: relative;
 }
