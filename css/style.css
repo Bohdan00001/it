@@ -438,3 +438,57 @@
         left: 0px;
         top: 0px;
     }
+    
+    .map_marker {
+        background-image: url(../images/map-marker.png);
+        background-repeat: no-repeat;
+        width: 231px;
+        height: 190px;
+        left: 824px;
+        top: 1782px;
+        position: absolute;
+    }
+    
+    .content_right {
+        position: absolute;
+        width: 319px;
+        height: 308px;
+        left: 140px;
+        top: 1780px;
+        background: #FFFFFF;
+    }
+    
+    .t1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 50px;
+        padding-left: 63px;
+    }
+    
+    .t2 {
+        color: #666666;
+        padding-left: 63px;
+        padding-top: 23px;
+    }
+    
+    .block__btn {
+        position: absolute;
+        width: 219px;
+        height: 50px;
+        left: 63px;
+        top: 211px;
+        background: #FB565A;
+        border-radius: 3px;
+    }
+    
+    .block__send {
+        position: absolute;
+        left: 63px;
+        top: 16px;
+        font-size: 16px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
