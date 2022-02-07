@@ -372,3 +372,30 @@
     .col_left {
         margin-left: 150px;
     }
+    
+    .col_right__main {
+        padding-bottom: 32px;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 45px;
+    }
+    
+    .line {
+        position: relative;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .line::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 25px;
+        height: 2px;
+        background-image: url(../images/red_line.png);
+    }
+    
+    .line__text {
+        padding-left: 32px;
+    }
