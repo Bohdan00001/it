@@ -443,3 +443,15 @@
         left: 0;
         display: block;
     }
+    
+    .container_map {
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    .map_img {
+        width: 1440px;
+        height: 416px;
+        left: 0px;
+        top: 0px;
+    }
