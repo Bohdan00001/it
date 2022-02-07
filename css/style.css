@@ -409,6 +409,7 @@
         margin-top: 48px;
         border-bottom: 2px solid #EEEEEE;
         padding-bottom: 48px;
+        position: relative;
     }
     
     .pst {
@@ -423,4 +424,22 @@
     
     .cl2 {
         padding-right: 20px;
+    }
+    
+    .left_text {
+        padding-top: 37px;
+    }
+    /*  .log_1 {
+        position: relative;
+    }*/
+    
+    .log_1 ::before {
+        content: '';
+        width: 2px;
+        height: 52px;
+        background-color: #a10000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
     }
