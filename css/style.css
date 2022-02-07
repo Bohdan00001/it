@@ -413,6 +413,9 @@
     
     .left_text {
         padding-top: 37px;
+        line-height: 24px;
+        display: flex;
+        text-transform: uppercase;
     }
     /*  .log_1 {
         position: relative;
