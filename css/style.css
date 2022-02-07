@@ -398,3 +398,29 @@
     .line__text {
         padding-left: 32px;
     }
+    
+    .container_logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1158px;
+        margin-left: 135px;
+        margin-right: 135px;
+        margin-top: 48px;
+        border-bottom: 2px solid #EEEEEE;
+        padding-bottom: 48px;
+    }
+    
+    .pst {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 31px;
+    }
+    
+    .cl1 {
+        padding-right: 20px;
+    }
+    
+    .cl2 {
+        padding-right: 20px;
+    }
