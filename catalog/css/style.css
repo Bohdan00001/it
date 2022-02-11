@@ -1,0 +1,105 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1160px;
+        width: 100%;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 50px;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        background: #EEEEEE;
+    }
+    
+    .header__logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav__menu {
+        display: flex;
+        list-style-type: none;
+        font-size: 16px;
+        padding-left: 202px;
+    }
+    
+    .nav__item {
+        text-decoration: none;
+        margin-left: 45px;
+        width: 86px;
+        height: 30px;
+        text-transform: uppercase;
+    }
+    
+    .nav__link {
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .nav__link:hover {
+        border-bottom: 2px solid red;
+        padding-top: 13px;
+    }
+    
+    .cart {
+        padding-left: 246px;
+        text-transform: uppercase;
+    }
+    
+    .icon_cart {
+        padding-right: 25px;
+    }
+    
+    .slide {
+        max-width: 1440px;
+        background: #EEEEEE;
+    }
+    
+    .slide__main-text {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 84px;
+        padding-bottom: 108px;
+        font-size: 55px;
+        line-height: 55px;
+    }
+    
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .col3__nav {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .col3__item {
+        text-decoration: none;
+        padding-left: 25px;
+        text-transform: uppercase;
+    }
