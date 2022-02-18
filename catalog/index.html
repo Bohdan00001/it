@@ -42,7 +42,42 @@
         <div class="wrap">
             <div class="row1">
                 <div class="col1">
-                    <p>Стоимость:</p>
+                    <label>Стоимость: 
+                        <br/>
+                        <input type="range" min="0" max="15000">
+                    </label>
+                    <label>Сетка :
+                        <br/>
+                        <input id="adapt" type="radio" name="grid" value="a" checked >
+                    <label for="adapt">Адаптивная</label><br/>
+
+                    <input id="fix" type="radio" name="grid" value="f">
+                    <label for="fix">Фиксированая</label><br/>
+
+                    <input id="rubber" type="radio" name="grid" value="r">
+                    <label for="rubber">Резиновая</label>
+                    </label>
+
+
+                    <label>Особенности :
+                        <br/>
+                        <input type="checkbox" name="features" value="slider" checked="checked" /> Слайдер
+                    <br/>
+
+                    <input type="checkbox" name="features" value="benefits" /> Блок преимуществ
+                    <br/>
+
+                    <input type="checkbox" name="features" value="news" checked="checked" /> Новости
+                    <br/>
+                        <input type="checkbox" name="features" value="galery"  /> Галерея  
+
+                        <br/>
+                        <input type="checkbox" name="features" value="cart"  /> Корзина
+                    </label>
+
+
+
+
                 </div>
 
                 <div class="col2">

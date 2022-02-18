@@ -100,6 +100,18 @@
     
     .col3__item {
         text-decoration: none;
-        padding-left: 25px;
+        padding-left: 19px;
         text-transform: uppercase;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .col2 {
+        padding-left: 285px;
+        padding-right: 266px;
+    }
+    
+    .col1 {
+        display: flex;
+        flex-direction: column;
     }
