@@ -127,7 +127,10 @@
     
     .catalog {
         width: 760px;
+        display: flex;
         padding-top: 48px;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     .col2_wraper {
@@ -137,4 +140,16 @@
     
     .sedona {
         position: relative;
+    }
+    
+    .catalog_img {
+        padding-bottom: 30px;
+        position: relative;
+    }
+    
+    .catalog_img :hover {
+        position: absolute;
+        width: 360px;
+        height: 231px;
+        background: #EEEEEE;
     }
