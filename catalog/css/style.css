@@ -6,11 +6,8 @@
     
     .wrap {
         display: flex;
-        justify-content: space-between;
-        max-width: 1160px;
-        width: 100%;
-        margin-left: 140px;
-        margin-right: 140px;
+        justify-content: center;
+        min-width: 100vw;
     }
     
     header {
@@ -90,7 +87,8 @@
     
     .row1 {
         display: flex;
-        justify-content: space-between;
+        min-width: 90vw;
+        justify-content: space-around;
     }
     
     .col3__nav {
@@ -113,6 +111,7 @@
         padding-left: 140px;
         padding-top: 40px;
         display: flex;
+        flex-direction: column;
     }
     
     .col1 {
@@ -124,4 +123,18 @@
     .price {
         padding-top: 48px;
         padding-bottom: 48px;
+    }
+    
+    .catalog {
+        width: 760px;
+        padding-top: 48px;
+    }
+    
+    .col2_wraper {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sedona {
+        position: relative;
     }
