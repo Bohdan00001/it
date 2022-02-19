@@ -44,9 +44,9 @@
                 <div class="col1">
                     <label>Стоимость: 
                         <br/>
-                        <input type="range" min="0" max="15000">
+                        <input type="range" min="0" max="15000" name="price" class="price">
                     </label>
-                    <label>Сетка :
+                    <label class="grid">Сетка :
                         <br/>
                         <input id="adapt" type="radio" name="grid" value="a" checked >
                     <label for="adapt">Адаптивная</label><br/>
@@ -59,7 +59,7 @@
                     </label>
 
 
-                    <label>Особенности :
+                    <label class="features">Особенности :
                         <br/>
                         <input type="checkbox" name="features" value="slider" checked="checked" /> Слайдер
                     <br/>
@@ -74,7 +74,7 @@
                         <br/>
                         <input type="checkbox" name="features" value="cart"  /> Корзина
 
-                         <a href="#" class="btn_filtr">Показать</a>
+                         <a href="#" class="btn_filtr"><span class="btn_text">Показать</span></a>
                     </label>
 
 
@@ -84,8 +84,6 @@
 
                 <div class="col2">
                     <p>Сортировать:</p>
-                </div>
-                <div class="col3">
                     <ul class="col3__nav">
                         <li class="col3__item">По цене</li>
                         <li class="col3__item">По типу</li>
@@ -95,6 +93,10 @@
                     </ul>
                 </div>
 
+
+            </div>
+            <div class="col3">
+                <img src="../catalog/img/img-sedona 1.png" width="359px" height="578px">
             </div>
         </div>
     </main>
