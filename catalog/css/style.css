@@ -153,3 +153,10 @@
         height: 231px;
         background: #EEEEEE;
     }
+    
+    .num {
+        width: 80px;
+        height: 38px;
+        background: #EEEEEE;
+        border-radius: 3px;
+    }
